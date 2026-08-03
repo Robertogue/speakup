@@ -19,7 +19,7 @@ The included workflow in `.github/workflows/pages.yml` is an alternative automat
 
 ## Updating registration
 
-The supplied QR code is stored at `assets/registration-qr.png`. Replace that file with a new QR image using the same filename when the registration destination changes.
+The Jotform registration form is embedded directly near the bottom of `index.html`, with a link fallback for browsers that block embedded forms. The flyer QR code points to the landing page rather than directly to the form.
 
 ## Program details shown
 
